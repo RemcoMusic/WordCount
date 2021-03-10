@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.rvg.WordCount.WordFrequencyAnalyzerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
+com.rvg.WordCount.WordFrequencyAnalyzerTest.testCalculateHighestFrequency()  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.rvg.WordCount.WordFrequencyAnalyzer.calculateHighestFrequency(String)" because "this.wordFrequencyAnalyzer" is null
+	at com.rvg.WordCount.WordFrequencyAnalyzerTest.testCalculateHighestFrequency(WordFrequencyAnalyzerTest.java:21)
+
+com.rvg.WordCount.WordFrequencyAnalyzerTest.testCalculateFrequencyForWord()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.rvg.WordCount.WordFrequencyAnalyzer.calculateFrequencyForWord(String, String)" because "this.wordFrequencyAnalyzer" is null
+	at com.rvg.WordCount.WordFrequencyAnalyzerTest.testCalculateFrequencyForWord(WordFrequencyAnalyzerTest.java:27)
+
+com.rvg.WordCount.WordFrequencyAnalyzerTest.testCalculateMostFrequentNWords()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.rvg.WordCount.WordFrequencyAnalyzer.calculateMostFrequentNWords(String, int)" because "this.wordFrequencyAnalyzer" is null
+	at com.rvg.WordCount.WordFrequencyAnalyzerTest.testCalculateMostFrequentNWords(WordFrequencyAnalyzerTest.java:33)
+
